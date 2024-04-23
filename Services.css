@@ -1,0 +1,1184 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  
+}
+
+
+
+
+.Servicess {
+  /* background-image: url('D:\main project\vcube management\vcube\src\assets\WhatsApp Image 2024-03-09 at 16.46.51_290e5c9d.jpg'); */
+  min-height: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
+}
+
+
+
+
+
+
+.service {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\Services.jpg');
+  min-height: 400px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  color: #000000;
+  text-align: center;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+}
+
+#titlebl{
+  font-size: 100px;
+ color: #efe7d8;
+
+}
+
+
+
+/* Media query for smaller screens */
+@media screen and (max-width: 767px) {
+ 
+  .service {
+    min-height: 300px;
+  }
+
+
+}
+
+
+
+
+.ofc {
+text-align: center;
+color: black;
+
+border-radius: 30px;
+align-content: center;
+text-align: center;
+align-self: center;
+align-items: center;
+padding-left: 30px;
+padding-right: 30px;
+background-color: rgba(128, 255, 0, 0.59);
+}
+
+
+
+
+
+
+
+
+
+
+
+.services-container {
+  display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 40px;
+padding: 30px;
+  justify-content: space-around; /* Distribute service divs evenly */
+  align-items: center;
+  position: relative; /* Add relative positioning to set z-index */
+}
+
+
+
+
+.ser1, .ser2, .ser3, .ser4, .ser5, .ser6, .ser7, .ser8, .ser9, .ser10, .ser11, .ser12, .ser13, .ser14, .ser15, .ser16, .ser17, .ser18, .ser19, .ser20, .ser21, .ser22, .ser23, .ser24, .ser25, .ser26, .ser27, .ser28, .ser29, .ser30, .ser31, .ser32, .ser33, .ser34, .ser35, .ser36, .ser37, .ser38, .ser39, .ser40, .ser41, .ser42, .ser43, .ser44, .ser45 {
+  display: flex;
+flex-direction: column;
+align-items: center;
+background-color: rgba(255, 255, 255, 0.284); /* Glassy background */
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+transition: box-shadow 0.3s;
+padding: 10px;
+}
+
+.ser1:hover, .ser2:hover, .ser3:hover, .ser4:hover, .ser5:hover, .ser6:hover, .ser7:hover, .ser8:hover, .ser9:hover, .ser10:hover, .ser11:hover, .ser12:hover, .ser13:hover, .ser14:hover, .ser15:hover, .ser16:hover, .ser17:hover, .ser18:hover, .ser19:hover, .ser20:hover, .ser21:hover, .ser22:hover, .ser23:hover, .ser24:hover, .ser25:hover, .ser26:hover, .ser27:hover, .ser28:hover, .ser29:hover, .ser30:hover, .ser31:hover, .ser32:hover, .ser33:hover, .ser34:hover, .ser35:hover, .ser36:hover, .ser37:hover, .ser38:hover, .ser39:hover, .ser40:hover, .ser41:hover, .ser42:hover, .ser43:hover, .ser44:hover, .ser45:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Shadow effect on hover */
+}
+
+
+
+
+
+.service1,
+.service2,
+.service3,
+.service4,
+.service5,
+.service6,
+.service7,
+.service8,
+.service9,
+.service10,
+.service11,
+.service12,
+.service13,
+.service14,
+.service15,
+.service16,
+.service17,
+.service18,
+.service19,
+.service20,
+.service21,
+.service22,
+.service23,
+.service24,
+.service25,
+.service26,
+.service27,
+.service28,
+.service29,
+.service30,
+.service31,
+.service32,
+.service33,
+.service34,
+.service35,
+.service36,
+.service37,
+.service38,
+.service39,
+.service40,
+.service41,
+.service42,
+.service43,
+.service44,
+.service45{
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  position: relative;
+  margin: 10px;
+}
+
+
+
+.service1:hover,
+.service2:hover,
+.service3:hover,
+.service4:hover,
+.service5:hover,
+.service6:hover,
+.service7:hover,
+.service8:hover,
+.service9:hover,
+.service10:hover,
+.service11:hover,
+.service12:hover,
+.service13:hover,
+.service14:hover,
+.service15:hover,
+.service16:hover,
+.service17:hover,
+.service18:hover,
+.service19:hover,
+.service20:hover,
+.service21:hover,
+.service22:hover,
+.service23:hover,
+.service24:hover,
+.service25:hover,
+.service26:hover,
+.service27:hover,
+.service28:hover,
+.service29:hover,
+.service30:hover,
+.service31:hover,
+.service32:hover,
+.service33:hover,
+.service34:hover,
+.service35:hover,
+.service36:hover,
+.service37:hover,
+.service38:hover,
+.service39:hover,
+.service40:hover,
+.service41:hover,
+.service42:hover,
+.service43:hover,
+.service44:hover,
+.service45:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Shadow effect on hover */
+}
+
+
+
+
+
+
+
+.options {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.service1:hover .options,
+.service2:hover .options,
+.service3:hover .options,
+.service4:hover .options,
+.service5:hover .options,
+.service6:hover .options,
+.service7:hover .options,
+.service8:hover .options,
+.service9:hover .options,
+.service10:hover .options,
+.service11:hover .options,
+.service12:hover .options,
+.service13:hover .options,
+.service14:hover .options,
+.service15:hover .options,
+.service16:hover .options,
+.service17:hover .options,
+.service18:hover .options,
+.service19:hover .options,
+.service20:hover .options,
+.service21:hover .options,
+.service22:hover .options,
+.service23:hover .options,
+.service24:hover .options,
+.service25:hover .options,
+.service26:hover .options,
+.service27:hover .options,
+.service28:hover .options,
+.service29:hover .options,
+.service30:hover .options,
+.service31:hover .options,
+.service32:hover .options,
+.service33:hover .options,
+.service34:hover .options,
+.service35:hover .options,
+.service36:hover .options,
+.service37:hover .options,
+.service38:hover .options,
+.service39:hover .options,
+.service40:hover .options,
+.service41:hover .options,
+.service42:hover .options,
+.service43:hover .options,
+.service44:hover .options,
+.service45:hover .options {
+  display: flex;
+  flex-direction: column;
+}
+
+.service1 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se1.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+.service2 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se2.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service3 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se3.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service4 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se4.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service5 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se5.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service6 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se6.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service7 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se7.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service8 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se8.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service9 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se9.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service10 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se10.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service11 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se11.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service12 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se12.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service13 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se13.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service14 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se14.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service15 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se15.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service16 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se16.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service17 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se17.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service18 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se18.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service19 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se19.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service20 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se20.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service21 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se21.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service22 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se22.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service23 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se23.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service24 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se24.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service25 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se25.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service26 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se26.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service27 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se27.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service28 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se28.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service29 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se29.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service30 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se30.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service31 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se31.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service32 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se32.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service33 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se33.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service34 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se34.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service35 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se35.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service36 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se36.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service37 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se37.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service38 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se38.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service39 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se39.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service40 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se40.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service41 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se41.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service42 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se42.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service43 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se43.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service44 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se44.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.service45 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se45.jpeg.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+
+
+.option {
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: #00000046;
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.option:hover {
+  background-color: #00b31b;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.containerr {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: calc(100% - 40px); 
+  height: calc(100% - 40px);
+  text-align: justify;
+  background-color: rgba(21, 150, 122, 0.919);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.54);
+  z-index: 9999;
+  overflow-y: auto;
+  padding: 20px; 
+}
+
+
+
+
+
+
+
+
+ul {
+text-align: left; 
+}
+
+h1, h2 {
+text-align: center; 
+}
+
+
+
+.close {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.close:hover {
+  color: red;
+}
+
+
+.view1,
+.view2,
+.view3,
+.view4,
+.view5,
+.view6,
+.view7,
+.view8,
+.view9,
+.view10,
+.view11,
+.view12,
+.view13,
+.view14,
+.view15,
+.view16,
+.view17,
+.view18,
+.view19,
+.view20,
+.view21,
+.view22,
+.view23,
+.view24,
+.view25,
+.view26,
+.view27,
+.view28,
+.view29,
+.view30,
+.view31,
+.view32,
+.view33,
+.view34,
+.view35,
+.view36,
+.view37,
+.view38,
+.view39,
+.view40,
+.view41,
+.view42,
+.view43,
+.view44,
+.view45 {
+ 
+  background-repeat: no-repeat;
+  position: relative; 
+  margin: 40px auto 0; 
+  background-size: cover; 
+  background-position: center;
+  width: 80%; 
+  max-width: 600px; 
+  height: 300px; 
+  padding: 0 20px; 
+}
+
+
+.view1 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se1.jpeg.jpg');
+}
+
+.view2 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se2.jpeg.jpg');
+}
+
+.view3 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se3.jpeg.jpg');
+}
+
+.view4 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se4.jpeg.jpg');
+}
+
+.view5 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se5.jpeg.jpg');
+}
+
+.view6 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se6.jpeg.jpg');
+}
+
+.view7 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se7.jpeg.jpg');
+}
+
+.view8 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se8.jpeg.jpg');
+}
+
+.view9 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se9.jpeg.jpg');
+}
+
+.view10 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se10.jpeg.jpg');
+}
+
+.view11 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se11.jpeg.jpg');
+}
+
+.view12 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se12.jpeg.jpg');
+}
+
+.view13 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se13.jpeg.jpg');
+}
+
+.view14 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se14.jpeg.jpg');
+}
+
+.view15 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se15.jpeg.jpg');
+}
+
+.view16 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se16.jpeg.jpg');
+}
+
+.view17 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se17.jpeg.jpg');
+}
+
+.view18 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se18.jpeg.jpg');
+}
+
+.view19 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se19.jpeg.jpg');
+}
+
+.view20 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se20.jpeg.jpg');
+}
+
+.view21 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se21.jpeg.jpg');
+}
+
+.view22 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se22.jpeg.jpg');
+}
+
+.view23 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se23.jpeg.jpg');
+}
+
+.view24 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se24.jpeg.jpg');
+}
+
+.view25 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se25.jpeg.jpg');
+}
+
+.view26 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se26.jpeg.jpg');
+}
+
+.view27 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se27.jpeg.jpg');
+}
+
+.view28 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se28.jpeg.jpg');
+}
+
+.view29 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se29.jpeg.jpg');
+}
+
+.view30 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se30.jpeg.jpg');
+}
+
+.view31 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se31.jpeg.jpg');
+}
+
+.view32 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se32.jpeg.jpg');
+}
+
+.view33 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se33.jpeg.jpg');
+}
+
+.view34 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se34.jpeg.jpg');
+}
+
+.view35 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se35.jpeg.jpg');
+}
+
+.view36 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se36.jpeg.jpg');
+}
+
+.view37 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se37.jpeg.jpg');
+}
+
+.view38 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se38.jpeg.jpg');
+}
+
+.view39 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se39.jpeg.jpg');
+}
+
+.view40 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se40.jpeg.jpg');
+}
+
+.view41 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se41.jpeg.jpg');
+}
+
+.view42 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se42.jpeg.jpg');
+}
+
+.view43 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se43.jpeg.jpg');
+}
+
+.view44 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se44.jpeg.jpg');
+}
+
+.view45 {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\se45.jpeg.jpg');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#maint {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#main2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+#para {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#para2 {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 850px) {
+  .services-container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .services-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .view1,
+  .view2,
+  .view3,
+  .view4,
+  .view5,
+  .view6,
+  .view7,
+  .view8,
+  .view9,
+  .view10,
+  .view11,
+  .view12,
+  .view13,
+  .view14,
+  .view15,
+  .view16,
+  .view17,
+  .view18,
+  .view19,
+  .view20,
+  .view21,
+  .view22,
+  .view23,
+  .view24,
+  .view25,
+  .view26,
+  .view27,
+  .view28,
+  .view29,
+  .view30,
+  .view31,
+  .view32,
+  .view33,
+  .view34,
+  .view35,
+  .view36,
+  .view37,
+  .view38,
+  .view39,
+  .view40,
+  .view41,
+  .view42,
+  .view43,
+  .view44,
+  .view45 {
+      width: 90%; 
+      max-width: 400px; 
+      height: 200px; 
+      padding: 0 10px; 
+  }
+}
+@media (max-width: 480px) {
+.view1,
+.view2,
+.view3,
+.view4,
+.view5,
+.view6,
+.view7,
+.view8,
+.view9,
+.view10,
+.view11,
+.view12,
+.view13,
+.view14,
+.view15,
+.view16,
+.view17,
+.view18,
+.view19,
+.view20,
+.view21,
+.view22,
+.view23,
+.view24,
+.view25,
+.view26,
+.view27,
+.view28,
+.view29,
+.view30,
+.view31,
+.view32,
+.view33,
+.view34,
+.view35,
+.view36,
+.view37,
+.view38,
+.view39,
+.view40,
+.view41,
+.view42,
+.view43,
+.view44,
+.view45 {
+  width: 90%;
+  max-width: 300px; 
+  height: 150px; 
+  padding: 0 10px; 
+}
+}
+
+
+
+
+
+
+
+
+
+
+.lastsec {
+  color: black;
+  align-items: center;
+  padding-bottom: 40px;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.726) 10%, rgba(255, 255, 255, 0.726) 90%, rgba(255, 255, 255, 0));
+}
+
+.lastsec #lastbut {
+  background-color: #1c7719;
+  border-radius: 80px;
+
+}
+.lastsec #lastbut:hover {
+  transform: scale(1.1); /* Zoom effect on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect on hover */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Default styles */
+.content1 {
+  background-color: #3e3f40;
+  padding: 20px;
+  color: white;
+}
+
+.container1 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+#para{
+  text-align: center;
+  /* padding: 10px; */
+ gap: 10px;
+size: 5px;
+}
+
+
+
+
+.grid-item1,
+.grid-item2,
+.grid-item3 {
+  width: 23%;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.grid-item1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+ 
+}
+
+
+#iconh :hover {
+  transform: scale(1.1);
+}
+
+.grid-item1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-image: url('D:\main project\vcube management\vcube\src\assets\qdq.png');
+  background-size: contain;
+  background-position: center;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .grid-container1 {
+    justify-content: center; /* Center content horizontally */
+  }
+
+  
+  .grid-item2,
+  .grid-item3 {
+    width: 48%; /* Adjust width for smaller screens */
+  }
+
+  .grid-item1{
+    width: 70%;
+    height: 100px;
+  padding: 20px;
+  margin-bottom: 20px;
+  }
+}

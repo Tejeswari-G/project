@@ -1,0 +1,348 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "montserrac","sans-sarif";
+  /* background-image: url("D:\main project\vcube management\vcube\src\assets\WhatsApp Image 2024-03-09 at 16.46.51_290e5c9d.jpg"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.blogs {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\pexels-photo-1591056.jpeg');
+  min-height: 400px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  color: #000000;
+  text-align: center;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+}
+
+#title_blog{
+  font-size: 100px;
+ color: black;
+  text-align: center;
+}
+
+
+
+
+.mainpt {
+  
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.blog-content {
+  width:80%;
+  margin-bottom: 20px;
+  margin-left:10%;
+  padding: 5px 10px 10px 10px;
+  background: rgba(255, 255, 255, 0.284); /* Glassy background */
+  
+  border-radius: 5px;
+}
+
+
+.content button {
+  color: #f7b500;
+  border: #00000000;
+  background-color: #00000000;
+  padding: 20px 25px;
+  margin: 0 5px;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.content button:hover {
+  
+  transform: scale(1.05);
+}
+
+
+.mainpt .blog-content .div-names {
+  font-size: 20px; /* Adjust the font size as needed */
+  text-align: left; /* Adjust the alignment as needed */
+  margin-bottom: 10px; /* Add margin to separate the div names from the content */
+  padding-left: 100px;
+}
+.intro{
+  color:black;
+  font-family: "montserrac","sans-sarif";
+  font-size:16px;
+}
+.innerp{
+  font-family: "montserrac","sans-sarif";
+  font-size:16px;
+  
+}
+.order{
+  
+  margin-left:20px;
+  color:black;
+  font-family: "montserrac","sans-sarif";
+  font-size:20px;
+  text-align: justify;
+}
+.order li{
+  
+  font-family: "montserrac","sans-sarif";
+  font-size:18px;
+  color: black;
+  padding:10px;
+  text-align: justify;
+  
+}
+
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 450px;
+}
+
+.blog-content p {
+  font-weight: normal;
+  font-size: 18px;
+  text-align: justify;
+  padding: 20px 35px;
+  
+}
+
+
+
+.pagination button {
+  color: black;
+  border-radius: 30px;
+  background-color: rgba(0, 128, 0, 0.068);
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+
+.pagination button:hover {
+  background-color: rgba(0, 128, 0, 0.585);
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  margin: 0 5px;
+}
+
+.pagination span.active {
+  background-color: rgba(128, 128, 128, 0.673);
+  color: orange;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .filter select {
+    font-size: 18px;
+  }
+
+  .filter button {
+    margin-left: 10px;
+  }
+
+  .mainpt .blog-content .div-names {
+    font-size: 16px;
+  }
+}
+
+
+
+
+
+
+.lastsec {
+  text-align: center;
+}
+
+.lastsec h1,
+.lastsec p,
+.lastsec a {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.lastsec #lastbut {
+  background-color: #1c7719;
+  border-radius: 80px;
+  width:140px;
+  height: 40px;
+
+}
+
+.lastsec #lastbut:hover {
+  transform: scale(1.1); /* Zoom effect on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect on hover */
+
+}
+
+
+
+
+
+.wp-block-heading{
+  /*color: #111111; */
+  text-align: left;
+  padding: 20px 35px;
+  line-height: 60px;
+  font-size: 40px;
+  font-weight: 400;
+  color: #334155;
+  font-family: "montserrac","sans-sarif";
+  
+}
+ p{
+  color:black;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  /* text-align: justify;  
+   padding :20px;   */
+}
+   
+  
+
+.wp-block-innerheading{
+  text-align: left;
+  line-height: 60px;
+  font-size: 30px;
+  font-weight: 400;
+  color:black;
+ margin-left:30px;
+  font-family: "montserrac","sans-sarif";
+}
+.wp-block-inheading{
+text-align: left;
+  line-height: 60px;
+  font-size: 30px;
+  font-weight: 400;
+  color:black;
+ margin-left:30px;
+  font-family: "montserrac","sans-sarif";
+}
+
+
+
+
+.entry-content {
+word-wrap: break-word;
+}
+
+
+
+
+
+/* Default styles */
+.content1 {
+  background-color: #3e3f40;
+  padding: 20px;
+  color: white;
+
+}
+
+.container1 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#para{
+  text-align: center;
+  /* padding: 10px; */
+  gap: 10px;
+  size: 5px;
+}
+.grid-item1,
+.grid-item2,
+.grid-item3 {
+  width: 23%;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.grid-item1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+
+}
+.grid-item2{
+  text-align: center;
+}
+.grid-item3{
+  text-align: center;
+  align-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+#iconh :hover {
+  transform: scale(1.1);
+}
+
+.grid-item1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-image: url("D:\main project\vcube management\vcube\src\assets\qdq.png");
+  background-size: contain;
+  background-position: center;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .grid-container1 {
+    justify-content: center; /* Center content horizontally */
+  }
+
+  
+  .grid-item2,
+  .grid-item3 {
+    width: 48%; /* Adjust width for smaller screens */
+  }
+
+  .grid-item1{
+    width: 70%;
+    height: 100px;
+  padding: 20px;
+  margin-bottom: 20px;
+  }
+} 
+
+ 

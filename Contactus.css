@@ -1,0 +1,196 @@
+
+.contactus {
+  background-image: url('D:\main project\vcube management\vcube\src\assets\Contactus.jpg');
+  min-height: 400px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  color: #000000;
+  text-align: center;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+
+}
+
+#titlebl{
+  font-size: 100px;
+  
+}
+
+
+
+/* Media query for smaller screens */
+@media screen and (max-width: 767px) {
+ 
+  .contactus {
+    min-height: 300px;
+  }
+
+}
+
+
+
+
+
+
+
+h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: xx-large;
+}
+
+
+
+
+ 
+
+.sub-containera {
+    display: grid;
+    padding: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+  }
+  
+  .boxa {
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    background-color: white; 
+  }
+  
+  .boxa{
+    margin-top: 0;
+    flex: 1 1 300px; /* Adjust width as needed */
+    padding: 40px; /* Padding around each box */
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.284); /* Glassy background */
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1); /* Define your box shadow */
+    transition: box-shadow 0.3s ease; /* Add transition for smooth effect */
+  /* Additional styles for your box */
+}  
+.boxa:hover {
+  box-shadow: 30px 50px 70px rgba(197, 61, 27, 0.1); /* Apply different box-shadow on hover */
+}
+
+.boxa img{
+  width: 40px;
+  height: 40px;
+}
+  @media screen and (max-width: 768px) {
+    .sub-containera {
+      grid-template-columns: repeat(3, 1fr); 
+    }
+  }
+  
+  
+  @media screen and (max-width: 480px) {
+    .sub-containera {
+      grid-template-columns: 1fr; 
+    }
+  }
+  .common-heading{
+    text-align: center;
+    font-size: 3.0rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+}
+
+@keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .animatedElement {
+    animation: slideIn 1s ease-in-out;
+  }
+input{
+  background-color: rgba(255, 255, 255, 0.284); /* Glassy background */
+}
+
+
+
+
+  /* Default styles */
+.content1 {
+  background-color: #3e3f40;
+  padding: 20px;
+  color: white;
+}
+
+.container1 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+#para{
+  text-align: center;
+  /* padding: 10px; */
+ gap: 10px;
+size: 5px;
+}
+
+
+
+.grid-item1,
+.grid-item2,
+.grid-item3 {
+  width: 23%;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.grid-item1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+ 
+}
+
+#iconh :hover {
+  transform: scale(1.1);
+}
+.grid-item1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-image: url("D:\main project\vcube management\vcube\src\assets\qdq Photoroom.png");
+  background-size: contain;
+  background-position: center;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .grid-container1 {
+    justify-content: center; /* Center content horizontally */
+  }
+
+  
+  .grid-item2,
+  .grid-item3 {
+    width: 48%; /* Adjust width for smaller screens */
+  }
+
+  .grid-item1{
+    width: 70%;
+    height: 100px;
+  padding: 20px;
+  margin-bottom: 20px;
+  }
+}
+  

@@ -1,0 +1,636 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  
+  
+  
+  .Abt {
+    /* background-image: url('D:\main project\vcube management\vcube\src\assets\WhatsApp Image 2024-03-09 at 16.46.51_290e5c9d.jpg'); */
+    min-height: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+  }
+  
+  
+  
+  
+  
+ 
+  .abttpop {
+    background-image: url('D:\main project\vcube management\vcube\src\assets\About us.jpg');
+    min-height: 400px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    color: #000000;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+  }
+ 
+  #titleab{
+    font-size: 100px;
+    color: white;
+    margin-right: 150px;
+  }
+  
+
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 767px) {
+   
+    .abttpop {
+      min-height: 300px;
+    }
+  
+  }
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .transparent-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.693) 10%, rgba(255, 255, 255, 0.693) 90%, rgba(255, 255, 255, 0));
+  }
+  
+  .abtleft {
+    width: 100%;
+    text-align: justify;
+  }
+  
+  .abtright {
+    width: 100%;
+    text-align: justify;
+  }
+
+
+  .abtleft1 {
+    width: 100%;
+    background-color: rgba(127, 255, 212, 0.684);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .abtright1 {
+    width: 100%;
+    background-color: rgba(127, 255, 212, 0.684);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 767px) {
+    .transparent-container {
+      flex-direction: column;
+      align-items: center; 
+    }
+  
+  }
+  
+  
+  
+  
+  .transparent-container1 {
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.693) 10%, rgba(255, 255, 255, 0.693) 90%, rgba(255, 255, 255, 0));
+  } 
+  
+  
+  .abtleft2,.abtright2 {
+    
+    text-align: justify;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .number-statsq {
+    display: flex;
+    justify-content: center; /* Center items initially */
+    flex-wrap: wrap; /* Wrap items to next line if needed */
+  }
+  
+  .statq {
+    margin: 10px; /* Add margin between items */
+  }
+  
+  .number-containerq {
+    text-align: center;
+  }
+  
+  .countq {
+    font-size: 36px;
+    color: #007bff;
+    margin: 5px 0;
+  }
+  
+  .headingq {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+
+  .abtline {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, transparent, rgb(255, 0, 0), transparent); /* Change black to your desired line color */
+    animation: expand 1s ease-out forwards;
+  }
+  
+  @keyframes expand {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+
+
+  
+  .divnum {
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the opacity by changing the last value */
+
+    border-radius: 10px; /* Optional: Add border radius for rounded corners */
+    padding: 20px; /* Optional: Add padding for content */
+    align-content: center;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+   
+    max-width: calc(100% - 20px); /* Ensure the width doesn't exceed the container */
+  }
+  
+  /* Media queries for different screen sizes */
+  @media only screen and (max-width: 992px) {
+    .number-statsq .statq {
+      flex-basis: calc(50% - 20px); /* Two items per row */
+      max-width: calc(50% - 20px);
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .number-statsq .statq {
+      flex-basis: calc(100% - 20px); /* One item per row */
+      max-width: calc(100% - 20px);
+    }
+  }
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .containerle {
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 50px;
+    
+  }
+  
+  .titlele {
+    margin-bottom: 20px;
+  }
+  
+  .galleryle {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .itemle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.284); /* Glassy background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    transition: box-shadow 0.3s;
+    padding-top: 30px;
+  }
+  
+  .itemle:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Shadow effect on hover */
+  }
+  
+  .imagei1 {
+    width: 100px; /* Adjust the image size */
+    height: 100px; /* Adjust the image size */
+    background: url('https://www.vcubesoftsolutions.com/wp-content/uploads/2024/01/PVR-Sir-1.jpg') center/cover; /* Add your image here */
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .imagei2 {
+    width: 100px; /* Adjust the image size */
+    height: 100px; /* Adjust the image size */
+    background: url('https://www.vcubesoftsolutions.com/wp-content/uploads/2023/10/Manohar-Sir.png') center/cover; /* Add your image here */
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .imagei3 {
+    width: 100px; /* Adjust the image size */
+    height: 100px; /* Adjust the image size */
+    background: url('https://www.vcubesoftsolutions.com/wp-content/uploads/2023/10/Srinivas-Sir.png') center/cover; /* Add your image here */
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .imagei4 {
+    width: 100px; /* Adjust the image size */
+    height: 100px; /* Adjust the image size */
+    background: url('https://www.vcubesoftsolutions.com/wp-content/uploads/2023/10/Madhukar-Sir-.png') center/cover; /* Add your image here */
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .imagei5 {
+    width: 100px; /* Adjust the image size */
+    height: 100px; /* Adjust the image size */
+    background: url('https://www.vcubesoftsolutions.com/wp-content/uploads/2023/10/Vishwanath-Sir-908x1024.png') center/cover; /* Add your image here */
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  
+  .imagei1:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect on hover */
+  }
+  .imagei2:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect on hover */
+  }
+  .imagei3:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect on hover */
+  }
+  .imagei4:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect on hover */
+  }
+  .imagei5:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect on hover */
+  }
+  
+  .info {
+    margin-top: auto;
+    text-align: center;
+  }
+  
+  .itemle:hover .popup {
+    display: block;
+  }
+  
+  .popup {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  
+  @media only screen and (max-width: 1024px) {
+    .galleryle {
+      grid-template-columns: repeat(2, 1fr); /* Display two items per row */
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .galleryle {
+      grid-template-columns: 1fr; /* Display one item per row */
+    }
+  }
+  
+  
+  
+
+  
+
+
+
+
+
+
+
+  .abtimg1,
+  .abtimg2,
+  .abtimg3,
+  .abtimg4,
+  .abtimg5 {
+    margin: 10px; 
+    display: inline-block;
+  }
+  
+  .abtimg1 {
+    width: 150px; /* Adjust the image size */
+    height: 150px; /* Adjust the image size */
+    background: url('https://www.vcubesoftsolutions.com/wp-content/uploads/2023/10/Copy-of-Copy-of-Hired-11-1024x1024.png') center/cover; /* Add your image here */
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .abtimg2 {
+    width: 150px; /* Adjust the image size */
+    height: 150px; /* Adjust the image size */
+    background: url('https://www.vcubesoftsolutions.com/wp-content/uploads/2023/10/Copy-of-Copy-of-Hired-20-1024x1024.png') center/cover; /* Add your image here */
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .abtimg3 {
+    width: 150px; /* Adjust the image size */
+    height: 150px; /* Adjust the image size */
+    background: url('https://www.vcubesoftsolutions.com/wp-content/uploads/2023/10/Copy-of-Copy-of-Hired-24-1-1024x1024.png') center/cover; /* Add your image here */
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .abtimg4 {
+    width: 150px; /* Adjust the image size */
+    height: 150px; /* Adjust the image size */
+    background: url('https://www.vcubesoftsolutions.com/wp-content/uploads/2023/10/Copy-of-Copy-of-Hired-22-1024x1024.png') center/cover; /* Add your image here */
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .abtimg5 {
+    width: 150px; /* Adjust the image size */
+    height: 150px; /* Adjust the image size */
+    background: url('https://www.vcubesoftsolutions.com/wp-content/uploads/2023/10/Copy-of-Copy-of-Hired-25-1024x1024.png') center/cover; /* Add your image here */
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  
+
+
+
+
+
+
+  #abtimg111 {
+    background: url('https://www.vcubesoftsolutions.com/wp-content/uploads/2023/11/JNLNN.jpeg') center/cover; /* Add your image here */
+  }
+  
+  #abtimg222 {
+    background: url('https://www.vcubesoftsolutions.com/wp-content/uploads/2023/10/FBF-898x1024.jpg') center/cover; /* Add your image here */
+  }
+  
+  #abtimg333 {
+    background: url('https://www.vcubesoftsolutions.com/wp-content/uploads/2023/10/asasasasa-704x1024.jpeg') center/cover; /* Add your image here */
+  }
+
+
+
+
+
+
+
+  
+  .abtct {
+    text-align: center;
+  }
+  
+  .abtline {
+    width: 50%;
+    margin: 20px auto;
+  }
+
+
+  .abtimgrrr{
+    margin-left: 80px;
+    margin-right: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+   text-align: center;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .abtimgrrr{
+      grid-template-columns: repeat(2, 1fr); /* Display two items per row */
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .abtimgrrr{
+      grid-template-columns: 1fr; /* Display one item per row */
+    }
+  }
+
+
+.abtrj{
+    width: 300px;
+  margin: 20px;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.284); /* Glassy background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    transition: box-shadow 0.3s;
+    height: 300px;
+}
+
+
+
+
+  .abtimgrr {
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+    width: 150px; 
+    height: 200px; 
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .abtimgrr:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+
+
+  #abtimg11 {
+    background: url('https://www.vcubesoftsolutions.com/wp-content/uploads/2023/10/222-removebg-preview.jpg') center/cover; /* Add your image here */
+  }
+  
+  #abtimg22 {
+    background: url('https://www.vcubesoftsolutions.com/wp-content/uploads/2023/10/20230918_125005.jpg') center/cover; /* Add your image here */
+  }
+  
+  #abtimg33 {
+    background: url('https://www.vcubesoftsolutions.com/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-23-at-10.53.07-AM.jpeg') center/cover; /* Add your image here */
+  }
+  
+  #abtimg44 {
+    background: url('https://www.vcubesoftsolutions.com/wp-content/uploads/2024/01/IMG_20220724_125533_418.jpg') center/cover; /* Add your image here */
+  }
+  
+  #abtimg55 {
+    background: url('https://www.vcubesoftsolutions.com/wp-content/uploads/2024/01/12424.jpeg') center/cover; /* Add your image here */
+  }
+
+  #abtimg66 {
+    background: url('https://www.vcubesoftsolutions.com/wp-content/uploads/2024/01/687778.jpeg') center/cover; /* Add your image here */
+  }
+
+
+ 
+  .abtrj h3 {
+    opacity: 0;
+  transform: translateY(50%);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+
+ 
+  .abtrj:hover h3 {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
+ 
+  .abtrj:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(66, 64, 64, 0.484);
+  }
+
+  
+  
+  
+  
+  
+  
+  /* Default styles */
+  .content1 {
+    background-color: #3e3f40;
+    padding: 20px;
+    color: white;
+  }
+  
+  .container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .grid-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+
+  #para{
+    text-align: center;
+    /* padding: 10px; */
+   gap: 10px;
+  size: 5px;
+  }
+
+
+
+  .grid-item1,
+  .grid-item2,
+  .grid-item3 {
+    width: 23%;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .grid-item1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    
+  }
+ 
+  
+  .grid-item1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-image: url('D:\main project\vcube management\vcube\src\assets\qdq.png');
+    background-size: contain;
+    background-position: center;
+  }
+  
+  /* Media query for smaller screens */
+  @media only screen and (max-width: 768px) {
+    .grid-container1 {
+      justify-content: center; /* Center content horizontally */
+    }
+  
+    
+    .grid-item2,
+    .grid-item3 {
+      width: 48%; /* Adjust width for smaller screens */
+    }
+  
+    .grid-item1{
+      width: 70%;
+      height: 100px;
+    padding: 20px;
+    margin-bottom: 20px;
+    }
+  }
+
+  #iconh :hover {
+    transform: scale(1.1);
+  }

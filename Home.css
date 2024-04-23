@@ -1,0 +1,1075 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  
+}
+
+
+
+
+.App {
+  /* background-image: url("D:\main project\vcube management\vcube\src\assets\WhatsApp Image 2024-03-09 at 16.46.51_290e5c9d.jpg"); */
+  min-height: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
+}
+
+.Appt {
+  text-align: center;
+  overflow: hidden;
+}
+
+.slick-slide img {
+  min-height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin: 0;
+  padding: 0;
+}
+.slick-next {
+  display: none;
+}
+
+
+.slick-dots {
+  position: absolute;
+  bottom: 20px; 
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 100;
+  text-align: center;
+}
+
+
+.slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 10px;
+  height: 10px;
+  padding: 5px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #fff; 
+}
+
+
+
+.slick-dots li.slick-active button {
+  background-color: #000;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .slick-slide img {
+    min-height: 300px;
+    width: 100%;
+    object-fit: cover; 
+  }
+}
+
+
+
+
+
+
+
+
+.transparent-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.693) 10%, rgba(255, 255, 255, 0.693) 90%, rgba(255, 255, 255, 0));
+}
+
+.left-content {
+  width: 100%;
+  text-align: justify;
+}
+
+.right-content {
+  background-image: url("D:\main project\vcube management\vcube\src\assets\Untitled (1).png");
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.left-content #lastbut11 {
+  background-color: #1c7719;
+  border-radius: 80px;
+   width: 140px; /* Set the width of the button */
+  height: 40px;/* Set the height of the button*/
+
+
+
+}
+.left-content #lastbut:hover {
+  transform: scale(1.1); /* Zoom effect on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect on hover */
+
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+  height: 70vh;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 767px) {
+  .transparent-container {
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  /* .left-content {
+    order: 2; 
+    margin-top: 20px; 
+  } */
+
+  .right-content {
+    order: 1; 
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.timeline {
+  text-align: center;
+  padding-top: 40px;
+  height: auto;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(19, 200, 128, 0.719) 10%, rgba(19, 200, 128, 0.719) 90%, rgba(255, 255, 255, 0));
+}
+
+.stages {
+  display: flex;
+  justify-content: center; /* Center align items */
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.stage {
+  width: calc(25% - 20px); /* Four items per row */
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #25242400;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.stage:hover {
+  background-color: rgba(14, 120, 78, 0.858);
+  transform: scale(1.1); /* Zoom effect on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect on hover */
+}
+
+.stage-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stage-image img {
+  width: 100px; /* Adjust size of the image */
+  height: auto;
+}
+
+.stage-title {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.stage-description {
+  margin-top: 10px;
+}
+
+
+/* For small screens */
+@media screen and (max-width: 767px) {
+  .stage {
+    width: calc(50% - 20px); /* Two items per row */
+  }
+}
+
+/* For medium screens */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .stage {
+    width: calc(33.33% - 20px); /* Three items per row */
+  }
+}
+
+/* For large screens */
+@media screen and (min-width: 992px) {
+  .stage {
+    width: calc(25% - 20px); /* Four items per row */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.divq{
+  background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(19, 91, 200, 0.719) 10%, rgba(19, 91, 200, 0.719) 90%, rgba(255, 255, 255, 0));
+  padding-bottom: 40px;
+  padding-top: 40px;
+  border-radius: 20px;
+}
+.containerp {
+  text-align: center;
+}
+
+.headingp {
+  margin-top: 20px;
+}
+
+.images-containerp {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.image-divp {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background: url("D:\main project\vcube management\vcube\src\assets\qdq.png") center/cover;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.image-divp:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#more-button {
+  background-color: #1c7719;
+  border-radius: 80px;
+  width: 140px; /* Set the width of the button */
+  height: 40px;/* Set the height of the button*/
+
+}
+
+#more-button:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.popup-content img {
+  max-width: 100%;
+  max-height: 80vh;
+}
+
+.popup-content button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #00a8fc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup-content button:hover {
+  background-color: #ffffff;
+}
+
+.image-divp:nth-child(1) {
+  background-image: url("D:\main project\vcube management\vcube\src\assets\java1.png");
+}
+
+.image-divp:nth-child(2) {
+  background-image: url("D:\main project\vcube management\vcube\src\assets\python1.png");
+}
+
+.image-divp:nth-child(3) {
+  background-image: url("D:\main project\vcube management\vcube\src\assets\aws1.png");
+}
+
+.image-divp:nth-child(4) {
+  background-image: url("D:\main project\vcube management\vcube\src\assets\powerbi1.png");
+}
+
+.image-divp:nth-child(5) {
+  background-image: url("D:\main project\vcube management\vcube\src\assets\manual testing1.png");
+}
+
+.image-divp:nth-child(6) {
+  background-image: url("D:\main project\vcube management\vcube\src\assets\dev ops1.png");
+}
+
+
+@media only screen and (max-width: 767px) {
+  .images-containerp {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .image-divp {
+    flex: 0 0 calc(50% - 20px);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .image-divp {
+    flex: 0 0 calc(100% - 20px);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.number-statsq {
+  display: flex;
+  justify-content: center; /* Center items initially */
+  flex-wrap: wrap; /* Wrap items to next line if needed */
+}
+
+.statq {
+  margin: 10px; /* Add margin between items */
+}
+
+.number-containerq {
+  text-align: center;
+}
+
+.countq {
+  font-size: 36px;
+  color: #007bff;
+  margin: 5px 0;
+}
+
+.headingq {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.divnum {
+  background-color: rgba(255, 255, 255, 0.5); /* Adjust the opacity by changing the last value */
+ 
+  border-radius: 10px; /* Optional: Add border radius for rounded corners */
+  padding: 20px; /* Optional: Add padding for content */
+  align-content: center;
+  text-align: center;
+  align-self: center;
+  align-items: center;
+
+  max-width: calc(100% - 20px); /* Ensure the width doesn't exceed the container */
+}
+
+/* Media queries for different screen sizes */
+@media only screen and (max-width: 992px) {
+  .number-statsq .statq {
+    flex-basis: calc(50% - 20px); /* Two items per row */
+    max-width: calc(50% - 20px);
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .number-statsq .statq {
+    flex-basis: calc(100% - 20px); /* One item per row */
+    max-width: calc(100% - 20px);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.containers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titles {
+  margin-bottom: 20px;
+}
+
+.slideshow-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px;
+}
+
+.slideshow-box {
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.468);
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  animation: zoomInOut 5s infinite;
+  flex-grow: 1; /* Allow boxes to grow and shrink */
+ 
+}
+
+@keyframes zoomInOut {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.slideshow-box h2,
+.slideshow-box p {
+  margin: 0;
+  text-align: center;
+}
+
+/* Media queries for different screen sizes */
+@media only screen and (max-width: 1200px) {
+  .slideshow-box {
+    max-width: calc(33.33% - 20px); /* Display three boxes per row */
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .slideshow-box {
+    max-width: calc(50% - 20px); /* Display two boxes per row */
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .slideshow-box {
+    max-width: calc(100% - 20px); /* Display one box per row */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.containerle {
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 50px;
+  
+}
+
+.titlele {
+  margin-bottom: 20px;
+}
+
+.galleryle {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.itemle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.284); /* Glassy background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  transition: box-shadow 0.3s;
+  padding-top: 30px;
+}
+
+.itemle:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Shadow effect on hover */
+}
+
+.imagei1 {
+  width: 100px; /* Adjust the image size */
+  height: 100px; /* Adjust the image size */
+  background: url("D:\main project\vcube management\vcube\src\assets\java1.png") center/cover; /* Add your image here */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.imagei2 {
+  width: 100px; /* Adjust the image size */
+  height: 100px; /* Adjust the image size */
+  background: url("D:\main project\vcube management\vcube\src\assets\testing tools1.png") center/cover; /* Add your image here */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.imagei3 {
+  width: 100px; /* Adjust the image size */
+  height: 100px; /* Adjust the image size */
+  background: url("D:\main project\vcube management\vcube\src\assets\python1.png") center/cover; /* Add your image here */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.imagei4 {
+  width: 100px; /* Adjust the image size */
+  height: 100px; /* Adjust the image size */
+  background: url("D:\main project\vcube management\vcube\src\assets\aws1.png") center/cover; /* Add your image here */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.imagei5 {
+  width: 100px; /* Adjust the image size */
+  height: 100px; /* Adjust the image size */
+  background: url("D:\main project\vcube management\vcube\src\assets\azure dev ops1.png") center/cover; /* Add your image here */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.imagei6 {
+  width: 100px; /* Adjust the image size */
+  height: 100px; /* Adjust the image size */
+  background: url("D:\main project\vcube management\vcube\src\assets\aws1.png") center/cover; /* Add your image here */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.imagei1:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect on hover */
+}
+.imagei2:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect on hover */
+}
+.imagei3:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect on hover */
+}
+.imagei4:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect on hover */
+}
+.imagei5:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect on hover */
+}
+.imagei6:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect on hover */
+}
+
+.info {
+  margin-top: auto;
+  text-align: center;
+}
+
+.itemle:hover .popup {
+  display: block;
+}
+
+.popup {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  .galleryle {
+    grid-template-columns: repeat(2, 1fr); /* Display two items per row */
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .galleryle {
+    grid-template-columns: 1fr; /* Display one item per row */
+  }
+}
+
+
+
+
+
+
+
+
+.video-section {
+  margin-top: 20px;
+  padding: 30px;
+}
+
+.video-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.video-container {
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.video-wrapper:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect on hover */
+}
+
+
+
+
+
+
+
+
+
+
+.containerin {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 166, 0, 0.726) 10%, rgba(255, 166, 0, 0.726) 90%, rgba(255, 255, 255, 0));
+}
+
+/* Media queries for smaller screens */
+@media only screen and (max-width: 768px) {
+  .containerin {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+/* Media queries for even smaller screens */
+@media only screen and (max-width: 480px) {
+  .containerin {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+.contact-info {
+  padding: 20px;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.726) 10%, rgba(255, 255, 255, 0.726) 90%, rgba(255, 255, 255, 0));
+  border-radius: 10px;
+}
+
+.contact-section {
+  margin-bottom: 20px;
+}
+
+.contact-section h3 {
+  color: #333;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo-container img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.logo-container a {
+  text-decoration: none;
+  color: #333;
+}
+
+.logo-container a:hover {
+  color: rgb(255, 85, 0);
+}
+
+.contact-section p {
+  margin: 0;
+}
+
+
+
+
+
+
+.lastsec {
+  color: black;
+  align-items: center;
+  padding-bottom: 40px;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.726) 10%, rgba(255, 255, 255, 0.726) 90%, rgba(255, 255, 255, 0));
+}
+
+.lastsec #lastbut {
+  background-color: #1c7719;
+  border-radius: 80px;
+  width: 140px; /* Set the width of the button */
+  height: 40px;/* Set the height of the button*/
+}
+.lastsec #lastbut:hover {
+  transform: scale(1.1); /* Zoom effect on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect on hover */
+
+}
+
+
+
+
+
+
+.title-container {
+  text-align: center;
+}
+
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px; /* Adjust width as needed */
+  margin: auto;
+  background-color: linear-gradient(to top, rgba(255, 255, 255, 0.577), rgb(255, 255, 255) 10%, rgb(255, 255, 255) 90%, rgba(255, 255, 255, 0.495));
+}
+
+.slideshow {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Next and previous buttons */
+.slideshow button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.288);
+  color: rgb(8, 66, 9);
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Next button */
+.slideshow button.next {
+  right: 0;
+}
+
+/* Previous button */
+.slideshow button.prev {
+  left: 0;
+}
+
+.slideshow button:hover{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect on hover */
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .slideshow-container {
+    max-width: 400px; /* Adjust width as needed */
+  }
+
+  /* Adjust button position */
+  .slideshow button {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Default styles */
+.content1 {
+  background-color: #3e3f40;
+  padding: 20px;
+  color: white;
+}
+
+.container1 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+ #para{
+  text-align: justify;
+  /* padding: 10px; */
+  gap: 10px;
+  font-size: 5px;
+} 
+
+
+
+
+
+.grid-item1,
+.grid-item2,
+.grid-item3 {
+  width: 23%;
+  padding: 20px;
+  margin-bottom: 20px;
+  /* text-align: center; */
+}
+
+.grid-item1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+
+}
+
+
+#iconh :hover {
+  transform: scale(1.1);
+}
+
+.grid-item1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-image: url("D:\main project\vcube management\vcube\src\assets\qdq.png");
+  background-size: contain;
+  background-position: center;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .grid-container1 {
+    justify-content: center; /* Center content horizontally */
+  }
+
+  
+  .grid-item2,
+  .grid-item3 {
+    width: 48%; /* Adjust width for smaller screens */
+  }
+
+  .grid-item1{
+    width: 70%;
+    height: 100px;
+  padding: 20px;
+  margin-bottom: 20px;
+  }
+}
+
+
+
+.home-container {
+  position: fixed;
+  z-index: 9999;    
+  bottom: 20px;
+  right: 20px;
+  padding: 20px;
+}
+
+.containerpup {
+  position: absolute;
+  width: 300px;
+  bottom: 20px;
+  right: 20px;
+  padding: 20px;
+  background-color: rgba(80, 77, 77, 0.889);
+  border-radius: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  animation: zoomOut 1s infinite alternate;
+}
+
+.containerpup:hover {
+  animation: none;
+}
+
+@keyframes zoomOut {
+  from {
+    transform: scale(1.1); 
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+
+.close-btn {
+  color: red;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  transform: scale(1.1);
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+  width: 100%; 
+  padding: 12px;
+  border-radius: 10px;
+  border: 2px solid #000000; 
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  transition: all 0.3s ease;
+  margin-bottom: 10px; 
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus {
+  background-color: rgb(253, 253, 253);
+  box-shadow: 0 0 20px rgb(255, 255, 255);
+  border-color: #000; 
+}
+
+button[type="submitpup"] {
+  background-color: #00ff04d3;
+  color: #000000;
+  padding: 10px 20px; 
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submitpup"]:hover {
+  background-color: orange;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .containerpup {
+    width: 250px;
+    padding: 15px;
+    bottom: 10px;
+    right: 10px;
+  }
+}

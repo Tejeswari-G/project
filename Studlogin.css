@@ -1,0 +1,154 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove outline on focus */
+button:focus,
+.reset-password a:focus {
+  outline: none;
+}
+
+/* Body styles */
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Main login container */
+.Studentlogin {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('D:\main project\vcube management\vcube\src\assets\WhatsApp Image 2024-03-09 at 16.46.51_290e5c9d.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Login form container */
+.login-container {
+  width: 300px;
+  padding: 40px;
+  background-color: rgba(80, 77, 77, 0.8);
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  animation: fadeIn 0.8s ease forwards;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Form group */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Label styles */
+label {
+  display: block;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+/* Input styles */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 2px solid #000000; /* Set border color */
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  transition: all 0.3s ease;
+}
+
+/* Input focus styles */
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: rgb(253, 253, 253);
+  box-shadow: 0 0 20px rgb(255, 255, 255);
+  border-color: #000; /* Adjust border color on focus */
+}
+
+/* Submit button styles */
+button[type="submit"] {
+  background-color: #00ff04d3;
+  color: #000000;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Submit button hover styles */
+button[type="submit"]:hover {
+  background-color: orange;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Reset password link styles */
+.reset-password {
+  margin-top: 20px;
+}
+
+.reset-password a {
+  color: #0767cc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.reset-password a:hover {
+  color: #b30000;
+  transform: scale(1.05);
+}
+
+/* Hover effect on login container */
+.login-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+}
+
+/* Password input container */
+.password-input {
+  position: relative;
+}
+
+/* Person logo animation */
+.person-logo {
+  animation: bounce 1s ease infinite alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
+
+
+
